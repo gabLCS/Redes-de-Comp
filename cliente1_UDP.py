@@ -17,7 +17,6 @@ cliente1 = socket(AF_INET, SOCK_DGRAM)
 
 cliente1_serv = (MEU_IP, MINHA_PORTA) 
 cliente1.bind(cliente1_serv)
-# faz o bind do ip e a porta para que possa comecar a ouvir
 print("O cliente1 está ligado!")
 
 DESTINO = (IP_Servidor, PORTA_Servidor) 
